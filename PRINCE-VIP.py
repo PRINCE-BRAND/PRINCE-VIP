@@ -16,7 +16,7 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from VIP import main_apv
+        from PRINCE import main_apv
  
         main_apv()
  
