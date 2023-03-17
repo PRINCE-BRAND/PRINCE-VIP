@@ -16,15 +16,15 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from PRINCE import main_apv
+        from PRINCE import Main
  
-        main_apv()
+        Main()
  
  
  
 elif bit == "32bit":
  
-        from VIP import main_apv
+        from VIP import Main
  
  
-        main_apv()
+        Main()
