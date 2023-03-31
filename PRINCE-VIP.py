@@ -24,7 +24,7 @@ if bit == "64bit":
  
 elif bit == "32bit":
  
-        from VIP import Main
+        from VIP_enc import Main
  
  
         Main()
