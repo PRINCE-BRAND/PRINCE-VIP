@@ -16,7 +16,7 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from PRINCE32 import PRINCE
+        from prince32 import PRINCE
  
         PRINCE()
  
